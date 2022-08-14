@@ -1,0 +1,42 @@
+.basis {
+  margin-bottom: 227px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("@img/basis/img-01.png");
+  }
+
+  &__uptitle {
+    margin-top: 533px;
+    margin-bottom: 24px;
+
+    &::after {
+      display: inline-block;
+      position: relative;
+      content: "";
+      margin-left: 32px;
+      top: -5px;
+      width: 72px;
+      height: 2px;
+      background: #ffc178;
+    }
+  }
+
+  &__title {
+    margin-bottom: 28px;
+    max-width: 780px;
+  }
+
+  &__subtitle {
+    margin-bottom: 39px;
+    max-width: 934px;
+  }
+
+  &__btn {
+    margin-bottom: 42px;
+  }
+}

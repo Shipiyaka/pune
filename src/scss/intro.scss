@@ -1,0 +1,34 @@
+.intro {
+  margin-bottom: 250px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__column {
+    &_img {
+      width: 598px;
+      height: 720px;
+      background-image: url("@img/intro/img-01.png");
+      margin-right: 30px;
+    }
+
+    &_text {
+      max-width: 630px;
+    }
+  }
+
+  &__uptitle {
+    margin-top: 88px;
+    margin-bottom: 27px;
+  }
+
+  &__title {
+    margin-bottom: 27px;
+  }
+
+  &__subtitle {
+    margin-bottom: 27px;
+  }
+}

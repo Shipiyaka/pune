@@ -106,6 +106,13 @@ body {
   margin: 0;
 }
 
+.descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: -0.204545px;
+}
+
 .link {
   border-bottom: 2px solid transparent;
 
@@ -118,4 +125,43 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.arrow-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fbd784;
+
+  &::after {
+    display: inline-block;
+    content: "";
+    position: relative;
+    top: 6px;
+    margin-left: 9px;
+    background-image: url("@img/icons/arrow_right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 24px;
+  }
+}
+
+.input {
+  &::placeholder {
+    font-family: "DMSans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
 }
